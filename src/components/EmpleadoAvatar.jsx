@@ -1,8 +1,8 @@
 import { Image } from "react-bootstrap";
 
-const EmpleadoAvatar = () => {
+const EmpleadoAvatar = ({imagenEmpleado}) => {
     return (
-        <Image src="./src/assets/empleado01.png" fluid rounded />
+        <Image src={`./src/assets/${imagenEmpleado}`} fluid rounded />
     );
     
 };
