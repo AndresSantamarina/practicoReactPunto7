@@ -8,7 +8,7 @@ const EmpleadoRow = ({
   imagenEmpleado,
 }) => {
   return (
-    <ListGroupItem className="mt-2">
+    <ListGroupItem className="m-2">
       <section className="container">
         <div className="row">
           <div className="col">
